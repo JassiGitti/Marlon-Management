@@ -127,7 +127,7 @@ main{
 }
 
 .about-me-pic{
-    width: 100%;
+    width: 80%;
     min-height: 400px;
     object-fit: fill;
     border: 5mm solid white;
