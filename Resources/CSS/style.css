@@ -138,7 +138,6 @@ main{
     display: inline;
     width: 45%;
     float: right;
-    border: solid red;
     color: white;
 }
 
@@ -150,7 +149,6 @@ main{
 /* Services */
 
 .services{
-    border: solid red;
     display: inline-block;
     margin-top: 70px;
     color: white;
@@ -164,7 +162,6 @@ main{
 /* Work */
 
 .work{
-    border: solid red;
     display: inline-block;
     margin-top: 70px;
     color: white;
@@ -178,17 +175,21 @@ main{
 /* Contact */
 
 .contact{
-    border: solid red;
-    display: inline-block;
+    display: block;
     margin-top: 70px;
     color: white;
+    text-align: center;
 }
 
 .contact h2{
-    text-align: center;
     color: white;
+    float: center;
 }
 
+.contact ul{
+    display: flexbox;
+    float: center;
+}
 /* Footer */
 
 *{
@@ -200,7 +201,7 @@ main{
     width: 100vw;
     display: block;
     overflow: hidden;
-    padding: 70px 0;
+    padding: 30px 0;
     box-sizing: border-box;
     background-color: #18181a;
 }
@@ -221,8 +222,9 @@ main{
 
 
 .inner-footer .logo-container img{
-    width: 65px;
+    width: 150px;
     height: auto;
+    border: solid white;
 }
 
 .inner-footer .footer-third{
@@ -257,7 +259,7 @@ main{
 
 .inner-footer .footer-third li{
     display:inline-block;
-    padding: 0 50px;
+    padding: 0 30px;
     font-size: 70px;
     color: white;
 }
